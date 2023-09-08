@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 850px) {
+  :root {
+    --big-icon-size: 30px;
+    --small-icon-size: 25px;
+  }
+}
+
+img {
+  display: block;
+}
+
+header a img,
+footer a img {
+  width: var(--big-icon-size);
+}
+
+main a img,
+.contact-info img {
+  width: var(--small-icon-size);
+}
