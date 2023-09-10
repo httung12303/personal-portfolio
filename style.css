@@ -446,3 +446,7 @@ footer section {
     gap: 20px;
   }
 }
+
+header {
+  background-color: transparent;
+}
